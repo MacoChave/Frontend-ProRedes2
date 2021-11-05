@@ -6,7 +6,7 @@ import { Routes } from './router/routes';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/Frontend-ProRedes2'>
         <Header></Header>
         <Routes></Routes>
       </BrowserRouter>
