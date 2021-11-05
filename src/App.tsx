@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import './App.css';
 import { Header } from './components/header';
 import { Routes } from './router/routes';
@@ -6,10 +6,10 @@ import { Routes } from './router/routes';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/Frontend-ProRedes2'>
+      <HashRouter basename='/Frontend-ProRedes2'>
         <Header></Header>
         <Routes></Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
